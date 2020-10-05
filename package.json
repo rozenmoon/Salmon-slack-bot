@@ -1,0 +1,32 @@
+{
+  "name": "salmon-slack-bot",
+  "version": "1.0.0",
+  "description": "used by team Salmon for daily standup and update the velocity",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon -r esm index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rozen Moon",
+  "license": "ISC",
+  "dependencies": {
+    "@slack/rtm-api": "^5.0.5",
+    "@slack/web-api": "^5.12.0",
+    "axios": "^0.20.0",
+    "dayjs": "^1.8.35",
+    "dotenv": "^8.2.0",
+    "esm": "^3.2.25",
+    "fs": "0.0.1-security",
+    "google-spreadsheet": "^3.0.13",
+    "googleapis": "^39.2.0",
+    "node-fetch": "^2.6.1",
+    "png-js": "^1.0.0",
+    "pngjs": "^5.0.0",
+    "rtm-api": "^1.3.1",
+    "sh": "0.0.3"
+  },
+  "devDependencies": {
+    "file-loader": "^6.1.0",
+    "nodemon": "^2.0.4"
+  }
+}
